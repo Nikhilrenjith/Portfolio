@@ -28,25 +28,30 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./pizza.png",
       "title": "Food Delivery App",
       "description": "Delight your taste buds with our food delivery app. Order, track, and savor your favorite dishes effortlessly.",
       "desc": "Source code",
-      "link": "https://food-delivery-delta-two.vercel.app/"
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "desc": "Source code"
+      "src": "./pizza.png",
+      "title": "Food Delivery App",
+      "description": "Delight your taste buds with our food delivery app. Order, track, and savor your favorite dishes effortlessly.",
+      "desc": "Source code",
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "desc": "Source code"
+      "src": "./pizza.png",
+      "title": "Food Delivery App",
+      "description": "Delight your taste buds with our food delivery app. Order, track, and savor your favorite dishes effortlessly.",
+      "desc": "Source code",
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
     }
   ],
   "testimonial": [
