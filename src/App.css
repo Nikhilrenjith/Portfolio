@@ -78,7 +78,7 @@ p {
 }
 .btn-github:hover {
   color: var(--primary);
-  background-color: var(--bg-shade);
+  background-color: var(--white);
   border: 1px solid var(--primary);
 }
 /* Global CSS Ends */
@@ -359,6 +359,8 @@ h2 {
 }
 .portfolio--section--img > img {
   width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 .portfolio--section--card {
   display: flex;
@@ -369,12 +371,11 @@ h2 {
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 12px;
 }
 .portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 12px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -382,6 +383,7 @@ h2 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  padding-bottom: 10px;
 }
 .portfolio--link {
   text-decoration: none;
