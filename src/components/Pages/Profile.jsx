@@ -1,6 +1,10 @@
 import React from "react";
 
 const Profile = () => {
+  const mail = () => {
+    const email = "mailto:nikhilrenjith3@gmail.com";
+    window.location.href = email;
+  };
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -18,7 +22,9 @@ const Profile = () => {
             build something amazing together!
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary" onClick={mail}>
+          Get In Touch
+        </button>
       </div>
     </section>
   );

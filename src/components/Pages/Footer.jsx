@@ -15,7 +15,8 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                delay={0}
+                duration={100}
                 to="heroSection"
                 className="text-md"
               >
@@ -28,20 +29,8 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+                delay={0}
+                duration={100}
                 to="AboutMe"
                 className="text-md"
               >
@@ -53,12 +42,28 @@ const Footer = () => {
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
-                offset={-70}
-                duration={500}
-                to="Contact"
+                offset={50}
+                delay={0}
+                duration={100}
+                to="MyPortfolio"
                 className="text-md"
               >
-                Contact
+                Portfolio
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                delay={0}
+                duration={100}
+                to="testimonial"
+                className="text-md"
+              >
+                Testimonials
               </Link>
             </li>
             <li>
@@ -67,11 +72,12 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
-                to="testimonial"
+                delay={0}
+                duration={100}
+                to="Contact"
                 className="text-md"
               >
-                Testimonials
+                Contact
               </Link>
             </li>
           </ul>
