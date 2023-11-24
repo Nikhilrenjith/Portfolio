@@ -757,3 +757,39 @@ input[type="checkbox"] {
   display: flex;
   justify-content: space-between;
 }
+
+/* My Skills */
+/* My Skills */
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+span {
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.progress .progress-bar {
+  border-radius: 20px;
+}
+
+.progress-bar-primary {
+  background-color: crimson;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
