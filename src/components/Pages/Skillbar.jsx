@@ -1,44 +1,144 @@
 import React from "react";
 
 const Skillbar = () => {
-  const skillsData = [
-    { name: "Html", value: 80 },
-    { name: "CSS", value: 85 },
-    { name: "JavaScript", value: 55 },
-    { name: "Jquery", value: 55 },
-    { name: "React Js", value: 75 },
-    { name: "Express Js", value: 50 },
-    { name: "Node Js", value: 30 },
-    { name: "Mongo Db", value: 90 },
-  ];
-
   return (
     <div className="container">
-      <div>
-        <h3 className="text-center">My Skills</h3>
-        <br />
-
-        {/* Skill Bars */}
-        {skillsData.map((skill, index) => (
+      <h2 className="text-center">My Skills</h2>
+      <br />
+      <div className="grid">
+        <div className="col1">
           <div className="items">
-            <React.Fragment key={index}>
-              <div className="heading">
-                <span>{skill.name}</span>
-                <span className="percentage">{skill.value}%</span>
-              </div>
-              <div className="progress skill-bar">
-                <div
-                  className="progress-bar progress-bar-primary"
-                  role="progressbar"
-                  aria-valuenow={skill.value}
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: `${skill.value}%` }}
-                ></div>
-              </div>
-            </React.Fragment>
+            <div className="heading">
+              <span>Html</span>
+              <span className="percentage">80%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "80%" }}
+              ></div>
+            </div>
           </div>
-        ))}
+
+          <div className="items">
+            <div className="heading">
+              <span> CSS</span>
+              <span className="percentage">85%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "85%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="items">
+            <div className="heading">
+              <span>Javascript</span>
+              <span className="percentage">80%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "80%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="items">
+            <div className="heading">
+              <span>Jquery</span>
+              <span className="percentage">75%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "75%" }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="col2">
+          <div className="items">
+            <div className="heading">
+              <span>React Js</span>
+              <span className="percentage">85%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "85%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="items">
+            <div className="heading">
+              <span>Node Js</span>
+              <span className="percentage">80%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "80%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="items">
+            <div className="heading">
+              <span>Express Js</span>
+              <span className="percentage">75%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "75%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="items">
+            <div className="heading">
+              <span>Mongo Db</span>
+              <span className="percentage">80%</span>
+            </div>
+            <div className="progress skill-bar">
+              <div
+                className="progress-bar progress-bar-primary"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ width: "80%" }}
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

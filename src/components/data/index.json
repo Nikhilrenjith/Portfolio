@@ -1,0 +1,83 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./frontend.png",
+      "title": "Front-End",
+      "description": "Focus on writing code that works consistently across different web browsers such as Chrome, Firefox, Safari, and Edge. Ensuring cross-browser compatibility is essential for reaching a wide audience ."
+    },
+    {
+      "id": "2",
+      "src": "./backend.png",
+      "title": "Back-End",
+      "description": "Focus on implementing server-side logic and business logic, which are the processes and rules that govern the functionality of an application. This includes handling user authentication, processing requests"
+    },
+    {
+      "id": "3",
+      "src": "./UI.png",
+      "title": "UI & UX Design",
+      "description": " Prioritizing user-centered design, placing the needs and preferences of the end users at the forefront of the design process. This involves conducting user research, creating user personas and empathizing with  target audience "
+    },
+    {
+      "id": "4",
+      "src": "./webflow.png",
+      "title": "Webflow Development",
+      "description": "Interacting without the need for external libraries or complex coding makes Webflow an ideal choice for those seeking to create visually engaging and dynamic websites."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./pizza.png",
+      "title": "Food Delivery App",
+      "description": "Discover a world of culinary delights with our food delivery website. From diverse cuisines to swift doorstep delivery . ",
+      "desc": "Source code",
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
+    },
+    {
+      "id": "2",
+      "src": "./pizza.png",
+      "title": "Food Delivery App",
+      "description": "Delight your taste buds with our food delivery app. Order, track, and savor your favorite dishes effortlessly.",
+      "desc": "Source code",
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
+    },
+    {
+      "id": "3",
+      "src": "./pizza.png",
+      "title": "Food Delivery App",
+      "description": "Delight your taste buds with our food delivery app. Order, track, and savor your favorite dishes effortlessly.",
+      "desc": "Source code",
+      "link": "https://food-delivery-delta-two.vercel.app/",
+      "gitlink": "https://github.com/Nikhilrenjith/Food-delivery/tree/main/frontend"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./av1.png",
+      "description": "Working with nikhil on the frontend application was a pleasure!. His attention to detail truly elevated the user experience.",
+      "author_name": "Wade Wilson",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./av2.png",
+      "description": "Nikhil exceeded expectations with the frontend application—responsive, user-friendly, and delivered ahead of schedule.",
+      "author_name": "Peter Parker",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "4",
+      "src": "./av3.png",
+      "description": "Impressed by nikhil's frontend development skills! The application's intuitive interface reflects their commitment to quality!",
+      "author_name": "Bruce Wyane",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

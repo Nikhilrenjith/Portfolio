@@ -6,6 +6,7 @@ import Portfolio from "./Pages/Portfolio";
 import Review from "./Pages/Review";
 import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
+import Rough from "./Pages/Rough";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Portfolio />
       <Review />
       <Contact />
+      <Rough />
       <Footer />
     </>
   );

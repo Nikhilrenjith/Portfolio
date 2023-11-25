@@ -223,7 +223,7 @@ h2 {
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 36px;
 }
@@ -304,7 +304,7 @@ h2 {
 }
 .skills--section--description {
   color: var(--black);
-  font-size: 21.3px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -761,10 +761,23 @@ input[type="checkbox"] {
 /* My Skills */
 /* My Skills */
 
-.items {
+.grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  width: 700px;
+}
+.container {
+  padding-top: 100px;
+}
+
+.col1,
+.col2 {
+  flex: 1;
+}
+
+.items {
+  margin-bottom: 50px;
   width: 100%;
 }
 
