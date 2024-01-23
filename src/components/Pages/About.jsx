@@ -52,7 +52,7 @@ const About = () => {
 
         <button
           onClick={handleDownload}
-          className={`download-button transform ${
+          className={`download-button h-10  transform ${
             downloading || downloaded
               ? "cursor-not-allowed"
               : "active:scale-90 hover:scale-100"

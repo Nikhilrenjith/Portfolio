@@ -3,7 +3,7 @@ import React from "react";
 const Skillbar = () => {
   return (
     <div className="container">
-      <h2 className="text-center">My Skills</h2>
+      <h2 >My Skills</h2>
       <br />
       <div className="grid">
         <div className="col1">
@@ -72,8 +72,6 @@ const Skillbar = () => {
               ></div>
             </div>
           </div>
-        </div>
-        <div className="col2">
           <div className="items">
             <div className="heading">
               <span>React Js</span>

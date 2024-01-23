@@ -2,16 +2,11 @@ import React from "react";
 import data from "../data/index.json";
 import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import CallMadeIcon from "@mui/icons-material/CallMade";
-import LanguageIcon from "@mui/icons-material/Language";
 import "../../App.css";
 
-const Portfolio = (datas) => {
+const Portfolio = () => {
   const handleClick = () => {
     window.open("https://github.com/Nikhilrenjith", "_blank");
-  };
-  const links = () => {
-    console.log(datas.link);
   };
 
   return (
@@ -39,17 +34,15 @@ const Portfolio = (datas) => {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <div className="card--button">
+              <div className="card--button flex pt-2"> {/* Use flex class to make children items flexible */}
                 <Link to={item.gitlink} target="_blank">
-                  <button className="btn btn-github">
+                  <button className="btns flex-1"> {/* Use flex-1 to equally divide the space */}
                     {item.desc}
-                    <CallMadeIcon />
                   </button>
                 </Link>
                 <Link to={item.link} target="_blank">
-                  <button className="btn btn-github" onClick={links}>
-                    <span className="btn-text">Website</span>
-                    <LanguageIcon />
+                  <button className="btns flex-1"> {/* Use flex-1 to equally divide the space */}
+                    Website
                   </button>
                 </Link>
               </div>
