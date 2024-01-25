@@ -68,7 +68,7 @@ const Navbar = () => {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={0}
               delay={0}
               duration={100}
               to="AboutMe"
@@ -83,7 +83,7 @@ const Navbar = () => {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={0}
               delay={0}
               duration={100}
               to="MyPortfolio"
@@ -98,7 +98,7 @@ const Navbar = () => {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-20}
               delay={0}
               duration={100}
               to="testimonial"

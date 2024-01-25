@@ -220,6 +220,15 @@ h2 {
   line-height: 90px;
   align-self: stretch;
 }
+
+.hero--section--titles {
+  color: var(--heading-color);
+  font-size: 44.667px;
+  font-weight: 700;
+  
+  align-self: stretch;
+}
+
 .hero--section--title--color {
   color: var(--primary);
 }
@@ -899,4 +908,11 @@ a:active.btns:before {
 a:active.btns:after {
   top: 1px;
   left: 1px;
+}
+.typo{
+    z-index: 1; 
+    font-size: 50px;
+}
+.typo-div{
+  min-height: 70px;
 }
